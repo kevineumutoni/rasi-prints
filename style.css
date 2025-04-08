@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .header-paragraph{
     padding: 20px 50px;
     background-color:  rgb(89 204 123);
@@ -354,4 +357,103 @@ ul{
     padding-top: 10px;
     border-top: 1px solid #333;
     font-size: 13px;
+  }
+  .screen-printing-header{
+    text-align: center;
+    font-size: 30px;
+  }
+  .screen-printing-paragraph{
+    text-align: center;
+  }
+  .discover-header{
+    text-align: center;
+    font-size: 30px;
+  }
+  .discover-paragraph{
+    text-align: center;
+    font-size: 20px;
+  }
+  .printing-techniques{
+    text-align: center;
+    font-size: 40px;
+  }
+  .printing-techniques-para{
+    text-align: center;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 412px) {
+    .bed-img{
+        width: 350px;
+    }
+    .rasi-printing-company{
+        display: flex;
+        flex-direction: column;
+    }
+    .rasi-printing-company-div h2{
+        font-size: 20px;
+    }
+    .main-page-content button{
+        margin: 0;
+        width: 100px;
+        height: 50px;
+    }
+    .main-page-content h1{
+        font-size: 30px;
+    }
+    .main-page-content p{
+        font-size: 20px;
+    }
+    .icon-description{
+        display: flex;
+        flex-direction: column;
+    }
+    .human-art-img, .design-art, .paint-art{
+        width: 380px;
+    }
+    .human-art{
+        display: flex;
+        flex-direction: column;
+    }
+    .partnered-companies{
+        display: flex;
+        flex-direction: column;
+    }
+    .printing-quality{
+        display: flex;
+        flex-direction: column;
+    }
+    .printing-quality-img{
+        width: 380px;
+    }
+    .fashion-companies{
+        display: flex;
+        flex-direction: column;
+    }
+    .fashion-clothes{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-fashion{
+        width: 380px;
+    }
+    .image-fashions{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    #phone-icon{
+        display: none;
+    }
+  
+
+  }
+  @media screen and (max-width: 412px) {
+
   }
